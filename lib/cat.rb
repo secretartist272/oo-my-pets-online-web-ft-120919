@@ -15,7 +15,7 @@ class Cat
   
   
   def new_owner
-    @@all.Owner 
+    @@all.owner
   end
   
   
