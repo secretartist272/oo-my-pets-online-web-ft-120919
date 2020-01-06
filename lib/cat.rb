@@ -12,7 +12,7 @@ class Cat
     @@all << self
   end
   
-  def owner(owner)
+  def owner
     @owner
   end
   
