@@ -15,7 +15,8 @@ class Cat
   def owner
     owner = @owner
   end
-  
-  
-  
+ 
+  def new_owner
+    self.owner.new
+  end
 end
