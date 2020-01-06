@@ -13,7 +13,7 @@ class Cat
   end
   
   def owner(owner)
-    owner.new
+    @owner
   end
   
   
