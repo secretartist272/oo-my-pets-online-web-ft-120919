@@ -1,4 +1,4 @@
-require 'pry'
+srequire 'pry'
 
 class Owner
   attr_reader :species, :name
