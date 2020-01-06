@@ -14,12 +14,6 @@ class Cat
   
   
   
-  
-  def new_owner
-    @@all
-  end
-  
-  
   def self.all
     @@all
   end
