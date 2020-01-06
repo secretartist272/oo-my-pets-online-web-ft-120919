@@ -1,7 +1,7 @@
 require 'pry'
 
 class Cat
-  attr_accessor :owner
+  attr_accessor :owner, :mood
   attr_reader :name
   
   @@all = []
@@ -10,6 +10,7 @@ class Cat
     @name = name
     @owner = owner
     @@all << self
+    @mood = "nervous"
   end
   
   def owner
